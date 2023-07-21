@@ -16,4 +16,17 @@
 
     </style>
 
+    <style name="MyColor3">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:backgroundTint">#C80100</item>
+
+    </style>
+
+
+
+    <style name="NoRippleStyle" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="rippleColor">@android:color/transparent</item>
+    </style>
+
 </resources>

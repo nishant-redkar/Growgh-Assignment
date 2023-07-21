@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <!-- TextView and ImageView in the same line -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_height="wrap_content">
+
+
+
+            <!-- TextView -->
+            <TextView
+                android:id="@+id/textViewHello"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Browse By"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:padding="8dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/textViewHello"
+            android:layout_alignParentLeft="true"
+            android:gravity="center_vertical">
+
+            <Button
+                android:layout_width="130dp"
+                android:text="Latest"
+                style="@style/MyColor2"
+                android:layout_height="40dp"/>
+
+            <Button
+                android:layout_width="130dp"
+                android:text="Older"
+                style="@style/MyColor2"
+                android:layout_marginLeft="20dp"
+                android:layout_height="40dp"/>
+
+
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+</LinearLayout>
